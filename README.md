@@ -4,11 +4,11 @@ A pixel-perfect tax management table built with React, TypeScript, and modern we
 
 🔗 **Live Demo**: [GitHub Repository](https://github.com/Rajesh-k11/Inkle)
 
-## 📋 Overview
+##  Overview
 
 This project implements a complete tax records management interface with features for viewing, filtering, and editing customer tax information. The application fetches data from a REST API and provides an intuitive user interface matching the provided design specifications.
 
-## ✨ Features
+##  Features
 
 ### Core Functionality
 - **Data Table**: Built using `@tanstack/react-table` v8 (mandatory requirement)
@@ -18,14 +18,14 @@ This project implements a complete tax records management interface with feature
 - **API Integration**: Full CRUD operations with REST endpoints
 
 ### UI/UX Highlights
-- ✅ Pixel-perfect design implementation
-- ✅ Responsive layout with hover states
-- ✅ Smooth animations and transitions
-- ✅ Click-outside detection for dropdowns
-- ✅ Loading states and error handling
-- ✅ Form validation with required fields
+-  Pixel-perfect design implementation
+-  Responsive layout with hover states
+-  Smooth animations and transitions
+-  Click-outside detection for dropdowns
+-  Loading states and error handling
+-  Form validation with required fields
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 ### Core Technologies
 - **Vite** - Fast build tool and dev server
@@ -43,7 +43,7 @@ This project implements a complete tax records management interface with feature
 - **lucide-react** - Beautiful icon library
 - **clsx & tailwind-merge** - Dynamic class management
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 - Node.js (v16 or higher)
@@ -91,11 +91,11 @@ src/
 
 ### Endpoints Used
 
-**Taxes API**: `https://685013d7e7c42cfd17974a33.mockapi.io/taxes`
+**Taxes API**: 
 - `GET /taxes` - Fetch all tax records
 - `PUT /taxes/:id` - Update a specific record
 
-**Countries API**: `https://685013d7e7c42cfd17974a33.mockapi.io/countries`
+**Countries API**: 
 - `GET /countries` - Fetch list of countries (25 total)
 
 ## 🎨 Design Implementation
@@ -140,18 +140,7 @@ src/
 - React Query handles cache invalidation
 - Immediate UI updates on successful save
 
-## 📸 Screenshots
-
-### Main Table View
-The complete tax records table with all columns and features.
-
-### Country Filter
-Multi-select filter dropdown showing all 25 countries from the API.
-
-### Edit Customer Modal
-Modal interface for updating customer name and country with custom dropdown.
-
-## 🏗️ Architecture Highlights
+##  Architecture Highlights
 
 ### Type Safety
 - Full TypeScript implementation with strict mode
@@ -170,22 +159,22 @@ Modal interface for updating customer name and country with custom dropdown.
 - Debounced filtering logic
 - Efficient re-rendering with proper dependencies
 
-## ✅ Assignment Requirements
+##  Assignment Requirements
 
 | Requirement | Status |
 |------------|--------|
-| Use `@tanstack/react-table` | ✅ Mandatory requirement met |
-| Design accuracy | ✅ Pixel-perfect implementation |
-| Edit functionality | ✅ Modal with name and country fields |
-| Country from API | ✅ All 25 countries dynamically loaded |
-| PUT API integration | ✅ Complete data persistence |
-| Working product | ✅ Fully functional, no bugs |
-| Quality code | ✅ TypeScript strict, clean architecture |
-| Seamless flow | ✅ Smooth UX with proper states |
-| Pixel perfect UI | ✅ Exact color and spacing match |
-| **Bonus**: Good UI/UX | ✅ Hover states, animations, interactions |
+| Use `@tanstack/react-table` |  Mandatory requirement met |
+| Design accuracy |  Pixel-perfect implementation |
+| Edit functionality |  Modal with name and country fields |
+| Country from API |  All 25 countries dynamically loaded |
+| PUT API integration |  Complete data persistence |
+| Working product |  Fully functional, no bugs |
+| Quality code |  TypeScript strict, clean architecture |
+| Seamless flow |  Smooth UX with proper states |
+| Pixel perfect UI |  Exact color and spacing match |
+| **Bonus**: Good UI/UX |  Hover states, animations, interactions |
 
-## 🔧 Development
+##  Development
 
 ### Available Scripts
 
@@ -222,7 +211,7 @@ Modal interface for updating customer name and country with custom dropdown.
 - Vite 6.0.5
 - ESLint 9.17.0
 
-## 🎯 What I Learned
+##  What I Learned
 
 Through this assignment, I demonstrated:
 - Proficiency with modern React patterns and hooks
@@ -235,7 +224,7 @@ Through this assignment, I demonstrated:
 - Building reusable component libraries
 - Performance optimization techniques
 
-## 👨‍💻 Author
+##  Author
 
 **Rajesh K**
 - GitHub: [@Rajesh-k11](https://github.com/Rajesh-k11)

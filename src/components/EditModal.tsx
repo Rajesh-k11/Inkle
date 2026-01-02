@@ -34,6 +34,18 @@ export const EditModal = ({ isOpen, onClose, record, onSave }: EditModalProps) =
         }
     }, [record, setValue]);
 
+    // Prevent body scroll when modal is open
+    useEffect(() => {
+        if (isOpen) {
+            document.body.style.overflow = 'hidden';
+        } else {
+            document.body.style.overflow = 'unset';
+        }
+        return () => {
+            document.body.style.overflow = 'unset';
+        };
+    }, [isOpen]);
+
     const onSubmit = (data: FormData) => {
         if (record) {
             onSave(record.id, data);

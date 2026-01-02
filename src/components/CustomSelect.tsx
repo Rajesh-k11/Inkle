@@ -47,7 +47,7 @@ export const CustomSelect = ({ value, onChange, options, label }: CustomSelectPr
 
             {/* Dropdown */}
             {isOpen && (
-                <div className="absolute z-10 w-full mt-1 bg-white border border-gray-200 rounded-md shadow-lg">
+                <div className="absolute z-10 w-full mt-1 bg-white border border-gray-200 rounded-md shadow-lg max-h-60 overflow-y-auto">
                     {options.map((option) => (
                         <button
                             key={option}
